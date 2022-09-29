@@ -99,3 +99,12 @@ lista2 = [1,2,3,"hola", True]
 print(f"datos de listas son {lista1} , {lista2} ")
 print("es la lista 1 igual a la lista 2/OPERADOR RELACIONAL(CONTENIDO)", lista1 == lista2)
 print("es la lista 1 igual a la lista 2/OPERADOR INDENTIDAD(COMPARA OBJETOS)", lista1 is lista2)
+
+#operadores logicos and or not
+
+lloviendo = True
+temprano = False
+
+print (f"si esta lloviendo ({lloviendo}) y es temprano ({temprano})?", lloviendo and temprano)
+print (f"si esta lloviendo ({lloviendo}) o es temprano ({temprano})?", lloviendo or temprano)
+print (f"si esta lloviendo ({lloviendo}) o es temprano ({temprano})/(cambia temprano) ?", not temprano)
