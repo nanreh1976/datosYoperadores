@@ -93,5 +93,8 @@ print(f"lo que hay en numero1 es menor o igual que lo que hay en numero3 , ( {nu
 
 #operadores de Identidad
 
-lista1 = []
-lista2 = []
+lista1 = [1,2,3,"hola", True]
+lista2 = [1,2,3,"hola", True]
+
+print("es la lista 1 igual a la lista 2", lista1 == lista2)
+print("es la lista 1 igual identidad(objetos) a la lista 2", lista1 is lista2)
