@@ -96,5 +96,6 @@ print(f"lo que hay en numero1 es menor o igual que lo que hay en numero3 , ( {nu
 lista1 = [1,2,3,"hola", True]
 lista2 = [1,2,3,"hola", True]
 
-print("es la lista 1 igual a la lista 2", lista1 == lista2)
-print("es la lista 1 igual identidad(objetos) a la lista 2", lista1 is lista2)
+print(f"datos de listas son {lista1} , {lista2} ")
+print("es la lista 1 igual a la lista 2/OPERADOR RELACIONAL(CONTENIDO)", lista1 == lista2)
+print("es la lista 1 igual a la lista 2/OPERADOR INDENTIDAD(COMPARA OBJETOS)", lista1 is lista2)
