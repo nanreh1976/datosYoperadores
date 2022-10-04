@@ -108,3 +108,7 @@ temprano = False
 print (f"si esta lloviendo ({lloviendo}) y es temprano ({temprano})?", lloviendo and temprano)
 print (f"si esta lloviendo ({lloviendo}) o es temprano ({temprano})?", lloviendo or temprano)
 print (f"si esta lloviendo ({lloviendo}) o es temprano ({temprano})/(cambia temprano) ?", not temprano)
+
+temprano += 1
+print(temprano) #reasigna valor
+print(type(temprano)) #devuelve que tipo de var es su estado
